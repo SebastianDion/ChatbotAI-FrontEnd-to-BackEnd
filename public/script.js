@@ -28,7 +28,7 @@ form.addEventListener('submit', async function (e) {
     if (data.reply) {
       appendMessage('bot', data.reply);
     } else {
-      appendMessage('bot', '⚠️ Gagal dapet respon dari Gemini!');
+      appendMessage('bot', ' Gagal dapet respon dari Gemini!');
     }
 
 
